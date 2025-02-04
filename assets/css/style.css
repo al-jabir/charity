@@ -35,8 +35,14 @@
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Federo&display=swap");
 :root {
-  --tp-theme-color: #0057FC;
-  --tp-primary-color: #0057FC;
+  --aj-theme-color: #ffcf4e;
+  --aj-primary-color: #073d30;
+  --aj-primary-color-2: #055c4d;
+  --aj-secondary-color: #fe4e15;
+  --aj-pink-color: #ff73ae;
+  --aj-white-color: #fff;
+  --aj-black-color: #000;
+  --aj-heading-color: #121018;
 }
 
 :root {
