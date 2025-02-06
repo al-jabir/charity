@@ -64,7 +64,7 @@
 ---------------------------------*/
 body {
   font-family: var(--aj-font-body);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: normal;
   color: var(--aj-body-color);
   line-height: 28px;
@@ -84,7 +84,8 @@ h6 {
   color: var(--aj-heading-color);
   margin-top: 0px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1;
+  letter-spacing: -2.4px;
 }
 
 h1 {
