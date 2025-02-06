@@ -3,3 +3,111 @@
 /*----------------------------------------*/
 /*   Header */
 /*----------------------------------------*/
+
+.aj-header {
+  &-transparent {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    right: 0;
+  }
+  &-container {
+    max-width: 1424px;
+  }
+
+  &-bg {
+    background-color: #fff;
+    padding-right: 5px;
+    border-radius: 12px;
+  }
+  &-logo {
+    z-index: 1;
+    position: relative;
+    &-box {
+      width: 200px;
+      flex: 0 0 auto;
+      border-radius: 12px 0 0 11px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    &-shape {
+      position: relative;
+      & svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+      }
+    }
+  }
+  &-menu {
+    & ul {
+      & li {
+        display: inline-block;
+        margin-right: 40px;
+        position: relative;
+        & a {
+          display: inline-block;
+          color: var(--aj-primary-color);
+          font-size: 16px;
+          font-weight: 600;
+          padding: 21px 0;
+        }
+        &:hover {
+          & > a {
+            color: var(--aj-theme-color);
+          }
+          & > .sub-menu {
+            opacity: 1;
+            visibility: visible;
+            top: 100%;
+          }
+        }
+        & .sub-menu {
+          position: absolute;
+          top: 105%;
+          left: 0;
+          background: #fff;
+          width: 220px;
+          padding: 18px 0;
+          @include aj-transition();
+          opacity: 0;
+          visibility: hidden;
+          & li {
+            margin-right: 0px;
+            display: block;
+            & a {
+              padding: 3px 28px;
+              display: block;
+            }
+            & .sub-menu {
+              left: 102%;
+              top: 0;
+            }
+            &:hover {
+              & > .sub-menu {
+                left: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-content {
+    width: 100%;
+  }
+  &-phone {
+    & a {
+      color: #063d30;
+      font-size: 15px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      & svg {
+        margin-right: 5px;
+      }
+    }
+  }
+}

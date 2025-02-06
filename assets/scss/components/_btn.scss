@@ -3,3 +3,13 @@
 /*----------------------------------------*/
 /*   Btn
 /*----------------------------------------*/
+
+.aj-btn {
+  background: var(--aj-theme-color);
+  padding: 22px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 12px;
+}

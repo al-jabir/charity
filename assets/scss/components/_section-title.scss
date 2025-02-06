@@ -1,0 +1,14 @@
+@use '../utils/' as *;
+
+/*----------------------------------------*/
+/*   Section Title */
+/*----------------------------------------*/
+
+.aj-section-title {
+  &-subtitle {
+    color: var(--aj-theme-color);
+    font-size: 50px;
+    font-family: var(--aj-font-sub-heading);
+    font-weight: 400;
+  }
+}

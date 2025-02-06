@@ -3,3 +3,24 @@
 /*----------------------------------------*/
 /*   Hero */
 /*----------------------------------------*/
+.aj-hero {
+  &-area {
+    padding: 240px 0 340px 0;
+  }
+  &-title {
+    @include aj-font-member(120px, 700);
+    color: var(--aj-white-color);
+    letter-spacing: -3.6px;
+  }
+  &-subtitle {
+    @include aj-font-member(50px, 400);
+    font-family: var(--aj-font-sub-heading);
+    color: var(--aj-theme-color);
+    line-height: 1;
+  }
+}
+
+.aj-hero-bottom-shape {
+  position: absolute;
+  bottom: 0;
+}
