@@ -7506,17 +7506,19 @@ img {
 /*   Hero */
 /*----------------------------------------*/
 .aj-hero-area {
-  padding: 240px 0 340px 0;
+  padding: 285px 0 340px 0;
 }
 .aj-hero-title {
   font-family: var(--aj-font-heading);
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
+  font-family: var(--aj-font-heading);
   color: var(--aj-white-color);
   letter-spacing: -3.6px;
 }
 .aj-hero-subtitle {
+  display: block;
   font-family: var(--aj-font-heading);
   font-style: normal;
   font-weight: 400;

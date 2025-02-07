@@ -5,14 +5,16 @@
 /*----------------------------------------*/
 .aj-hero {
   &-area {
-    padding: 240px 0 340px 0;
+    padding: 285px 0 340px 0;
   }
   &-title {
     @include aj-font-member(120px, 700);
+    font-family: var(--aj-font-heading);
     color: var(--aj-white-color);
     letter-spacing: -3.6px;
   }
   &-subtitle {
+    display: block;
     @include aj-font-member(50px, 400);
     font-family: var(--aj-font-sub-heading);
     color: var(--aj-theme-color);
