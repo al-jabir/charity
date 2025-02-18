@@ -7396,6 +7396,11 @@ img {
   position: absolute;
 }
 
+.middle {
+  position: relative;
+  margin-top: -150px;
+}
+
 /*----------------------------------------*/
 /*   Blog
 /*----------------------------------------*/
@@ -7555,6 +7560,28 @@ img {
 /*----------------------------------------*/
 /*   Services */
 /*----------------------------------------*/
+.aj-services-area {
+  background-color: #f2f0ec;
+}
+.aj-services-items {
+  padding: 50px 15px;
+  background-color: #fff;
+  border-radius: 16px 16px 0 0;
+  text-align: center;
+  border-bottom: 4px solid var(--aj-theme-color);
+}
+.aj-services-items:nth-child(2) {
+  border-bottom: 4px solid var(--aj-primary-color);
+}
+.aj-services-items a {
+  font-family: var(--aj-font-body);
+  font-size: 15px;
+  color: #56605d;
+}
+.aj-services-title {
+  padding: 40px 0;
+}
+
 /*----------------------------------------*/
 /*   Btn
 /*----------------------------------------*/
